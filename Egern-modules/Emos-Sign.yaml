@@ -52,7 +52,7 @@ scriptings:
   - schedule:
       name: "Emos 每日修仙任务"
       # 使用 UI 界面中填写的 Cron 变量
-      cron: "{{SIGN_CRON}}"
+      cron: "{{{SIGN_CRON}}}"
       # 此处已更新为你的 GitHub 地址，用于执行签到
       script_url: "https://raw.githubusercontent.com/Nanmai333/Emos-Sign/refs/heads/main/emos.js"
       timeout: 120
